@@ -6,6 +6,12 @@ public class SinglyLinkedList {
             private int data;
             private Node next;
 
+            private Node(int data, Node next) {
+                this.data = data;
+                this.next = next;
+            }
+
+
         }
 
     }
