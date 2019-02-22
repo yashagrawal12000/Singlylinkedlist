@@ -11,7 +11,9 @@ public class SinglyLinkedList {
                 this.next = next;
             }
 
-
+            public Node(int data) {
+                this.data = data;
+            }
         }
 
     }
